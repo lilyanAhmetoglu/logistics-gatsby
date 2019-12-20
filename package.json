@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@progress/kendo-react-form": "^3.9.0",
+    "@progress/kendo-react-inputs": "^3.9.0",
     "bootstrap-4-react": "0.0.59",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",

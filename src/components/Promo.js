@@ -13,7 +13,7 @@ export default class Promo extends Component {
                 <div className="text vertical-center">
                    <h1>Powerful Logistics Platform!</h1>
                    <p>QLogistics is the next generation logistics platform.</p>
-                   <Button  my="2 sm-0"> Get Started</Button>
+                   <Button className="ctrl-standard fx-sliderIn" my="2 sm-0"> Get Started</Button>
                 </div>
               </div>
               <div className="col-md-5 col-sm-12">

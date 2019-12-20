@@ -14,7 +14,7 @@ export default class Features extends Component {
   }
   render() {
     return (
-      <section className="features">
+      <section className="features" id="features">
         <div className="yellow-section">
           <div className="container">
             <Carousel w="100" id="carouselExampleControls">
@@ -135,7 +135,10 @@ export default class Features extends Component {
                       </div>
                       <div class="back">
                         <h4>INSTANT CHANGES</h4>
-                        <p>30% Increase in accuracy arrival time and customer satisfaction</p>
+                        <p>
+                          30% Increase in accuracy arrival time and customer
+                          satisfaction
+                        </p>
                       </div>
                     </a>
                   </div>
@@ -143,10 +146,10 @@ export default class Features extends Component {
               </div>
             </div>
             <div className="row bottom">
-                <Button>Free Trial</Button>
-                <p>Try for 7 days.</p>
+              <Button className="ctrl-standard fx-sliderIn">Free Trial</Button>
+              <p>Try for 7 days.</p>
             </div>
-           </div>
+          </div>
         </div>
       </section>
     )

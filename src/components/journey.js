@@ -6,7 +6,7 @@ import Video from "./video"
 export default class Features extends Component {
   render() {
     return (
-      <section className="journey">
+      <section className="journey" id="Journey">
         <div className="container">
           <div className="row">
             <div className="header">

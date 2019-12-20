@@ -7,12 +7,17 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Promo from '../components/Promo'
 import Features from '../components/features'
 import Journey from '../components/journey'
+import Team from '../components/team'
+import Contact from '../components/contact'
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Promo/>
-    <Features id="features"/>
+    <Features />
     <Journey/>
+    <Team/>
+    <Contact/>
   </Layout>
 )
 
