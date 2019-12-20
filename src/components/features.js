@@ -10,7 +10,9 @@ import { Button } from "bootstrap-4-react/lib/components"
 
 export default class Features extends Component {
   componentWillMount() {
-    window.setTimeout(() => Bootstrap.carousel(), 2000)
+    if (typeof window !== 'undefined') {
+      window.setTimeout(() => Bootstrap.carousel(), 2000)
+    }
   }
   render() {
     return (
