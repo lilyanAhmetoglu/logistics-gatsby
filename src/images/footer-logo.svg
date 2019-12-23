@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="193px" height="46px" viewBox="0 0 193 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Footer Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0002352 0.375144 21.74424 0.375144 21.74424 23.287152 0.0002352 23.287152"></polygon>
+        <polygon id="path-3" points="0.0929208 0.2161656 2.5648728 0.2161656 2.5648728 2.688 0.0929208 2.688"></polygon>
+        <polygon id="path-5" points="0 29.5007384 21.74424 29.5007384 21.74424 0.4758824 0 0.4758824"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="QLogistics_LandingPage" transform="translate(-623.000000, -5845.000000)">
+            <g id="Footer-Logo" transform="translate(623.000000, 5839.000000)">
+                <text id="LOGISTICS" font-family="Muli-ExtraBold, Muli ExtraBold" font-size="28" font-weight="600" letter-spacing="1.95999997" fill="#1C212B">
+                    <tspan x="28" y="28">LOGISTICS</tspan>
+                </text>
+                <g id="Group-9" transform="translate(0.000000, 6.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 0.100738)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M18.3670032,0.375144 L3.3777072,0.375144 C1.5149232,0.375144 0.0002352,1.889832 0.0002352,3.752616 L0.0002352,19.90968 C0.0002352,21.772464 1.5149232,23.287152 3.3777072,23.287152 L9.0530832,23.287152 L9.0530832,19.648608 L3.6399552,19.648608 L3.6399552,4.01604 L18.1047552,4.01604 L18.1071072,19.648608 L12.6928032,19.648608 L12.6928032,23.287152 L18.3670032,23.287152 C20.2297872,23.287152 21.7444752,21.772464 21.7444752,19.90968 L21.7444752,3.752616 C21.7444752,1.889832 20.2297872,0.375144 18.3670032,0.375144" id="Fill-1" fill="#1C212B" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Group-6" transform="translate(12.600000, 26.812738)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-5"></g>
+                        <polygon id="Fill-4" fill="#1C212B" mask="url(#mask-4)" points="0.6174168 0.2161656 0.6174168 0.7406616 0.6174168 0.2161656 0.0929208 0.2161656 0.0929208 2.6881176 2.5648728 2.6881176 2.5648728 0.2161656"></polygon>
+                    </g>
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-8"></g>
+                    <polygon id="Fill-7" fill="#1C212B" mask="url(#mask-6)" points="9.052848 27.0287864 12.692568 27.0287864 12.692568 23.3878904 9.052848 23.3878904"></polygon>
+                </g>
+                <text id="is-a-product-of-Qimi" font-family="Muli-SemiBold, Muli SemiBold" font-size="13" font-weight="500" letter-spacing="0.776136" fill="#1C212B">
+                    <tspan x="2" y="49">is a product of Qimia Group.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

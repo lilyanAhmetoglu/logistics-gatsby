@@ -9,7 +9,7 @@ import Instant from "../images/instant.svg"
 import { Button } from "bootstrap-4-react/lib/components"
 
 export default class Features extends Component {
-  componentWillMount() {
+  componentDidMount() {
     window.setTimeout(() => Bootstrap.carousel(), 2000)
   }
   render() {

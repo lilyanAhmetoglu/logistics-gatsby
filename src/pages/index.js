@@ -9,6 +9,8 @@ import Features from '../components/features'
 import Journey from '../components/journey'
 import Team from '../components/team'
 import Contact from '../components/contact'
+import Pricing from '../components/pricing'
+import Product from '../components/product'
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +19,8 @@ const IndexPage = () => (
     <Features />
     <Journey/>
     <Team/>
+    <Product/>
+    <Pricing/>
     <Contact/>
   </Layout>
 )
