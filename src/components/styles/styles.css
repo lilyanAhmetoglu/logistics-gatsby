@@ -36,7 +36,7 @@ p {
 .width100 {
   width: 100%;
 }
-/*.carousel-initialized {
+.carousel-initialized {
   overflow: hidden;
   position: relative;
   padding: 0px;
@@ -45,13 +45,12 @@ p {
 }
 .carousel-dots li.carousel-dots-active button:before {
   opacity: 1;
-  color: var( --secondary-color--) !important;
+  color: var(--secondary-color--) !important;
 }
 .carousel-dots li button:before {
   opacity: 1;
-  color: var( --gray-font-color--) !important;
-
-}*/
+  color: var(--gray-font-color--) !important;
+}
 .vertical-center {
   position: relative;
   top: 50%;
@@ -359,9 +358,11 @@ p {
 }
 .l-navbar .navbar-nav .nav-link:hover,
 .l-navbar .navbar-nav .nav-link:active {
-  color: var(--secondary-color--);
+  color: var(--secondary-color--) !important;
 }
-
+.l-navbar .navbar-light .navbar-nav .nav-link {
+  color: var(--secondary-color--) !important;
+}
 /*promo section*/
 .promo {
   overflow: auto;
@@ -711,12 +712,14 @@ p {
 }
 .pricing .prof {
   border-bottom: 10px solid var(--main-theme-color) !important;
-  bottom: 0;
+  margin-bottom: -25px;
+  box-shadow: 0 3px 50px 0 rgba(0,0,0,.2);
 }
 .pricing .prem {
   border-bottom: 10px solid var(--secondary-color--) !important;
   position: absolute;
   bottom: 0;
+
 }
 .pricing .prof .header {
   background-color: var(--main-theme-color) !important;
@@ -817,7 +820,9 @@ p {
   color: var(--main-theme-color);
 }
 .pricing .box-container .p-features .item {
-  display: -webkit-inline-box;
+  display: flex;
+  padding-top: 8px;
+  padding-bottom: 8px;
   width: 100%;
   border-top: 1px solid var(--gray-font-color--);
 }
@@ -832,12 +837,13 @@ p {
   line-height: normal;
   letter-spacing: normal;
   margin-bottom: 0;
-  line-height: 45px;
+  line-height: 1.5;
   color: var(--main-theme-color);
 }
 .div-relative {
   position: relative;
 }
+
 .div-abs {
   position: absolute;
   bottom: 0;

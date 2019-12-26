@@ -22,7 +22,7 @@ const IndexPage = () => (
     <Team/>
     <Product/>
     <Pricing/>
-    <Testimonial/>
+
     <Contact/>
   </Layout>
 )

@@ -17,8 +17,8 @@ export default class Pricing extends Component {
             </div>
           </div>
           <div className="row div-relative">
-            <div className="col-md-4 ">
-              <div className="box-container essential" >
+            <div className="col-md-4 col-sm-12">
+              <div className="box-container essential">
                 <div className="header">
                   <h1>Essential</h1>
                 </div>
@@ -30,7 +30,8 @@ export default class Pricing extends Component {
                     <p>Per vehicle / month</p>
                   </span>
                   <p>
-                    Everything you need to plan and<br/> dispatch optimized routes
+                    Everything you need to plan and
+                    <br /> dispatch optimized routes
                   </p>
                   <div className="bottom">
                     <Button className="ctrl-standard fx-sliderIn">
@@ -55,7 +56,7 @@ export default class Pricing extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 ">
+            <div className="col-md-4 col-sm-12">
               <div className="box-container prof">
                 <div className="header">
                   <h1>Professional</h1>
@@ -69,7 +70,8 @@ export default class Pricing extends Component {
                     <p>Per vehicle / month</p>
                   </span>
                   <p>
-                    Scale your delivery operations with <br/>driver management tools
+                    Scale your delivery operations with <br />
+                    driver management tools
                   </p>
                   <div className="bottom">
                     <Button className="ctrl-standard fx-sliderIn">
@@ -81,20 +83,23 @@ export default class Pricing extends Component {
                 <div className="p-features">
                   <div className="item">
                     <img src={Check} />
-                    <p>Easily import orders</p>
+                    <p>Track drivers' progress</p>
                   </div>
                   <div className="item">
                     <img src={Check} />
-                    <p>Plan optimized routes in minutes</p>
+                    <p>Capture signatures as proof of delivery</p>
                   </div>
                   <div className="item">
                     <img src={Check} />
-                    <p>Dispatch routes to driver app</p>
+                    <p>
+                      Customer Notifications available for an additional $19 USD
+                    </p>
                   </div>
                 </div>
               </div>
+              <p></p>
             </div>
-            <div className="col-md-4 ">
+            <div className="col-md-4 col-sm-12">
               <div className="box-container prem ">
                 <div className="header">
                   <h1>Premium</h1>
@@ -104,7 +109,10 @@ export default class Pricing extends Component {
                     <h1>Custom</h1>
                     <p></p>
                   </span>
-                  <p>For growing businesses that need<br/> custom support</p>
+                  <p>
+                    For growing businesses that need
+                    <br /> custom support
+                  </p>
                   <div className="bottom">
                     <Button className="ctrl-standard fx-sliderIn">
                       Try for Free
