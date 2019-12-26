@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Button } from "bootstrap-4-react/lib/components"
+import { Button } from "react-bootstrap"
 export default class Team extends Component {
   render() {
     return (
