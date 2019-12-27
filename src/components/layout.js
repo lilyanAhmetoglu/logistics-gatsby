@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 
 /*Resources */
-import FooterLogo from "../images/FooterLogo.svg"
+import FooterLogo from "../images/FooterLogo.png"
 import Facebook from "../images/facebook.svg"
 import Twitter from "../images/twitter.svg"
 import LikedIn from "../images/linkedin.svg"
@@ -83,6 +83,7 @@ const Layout = ({ children }) => {
             <div className="col-md-12 ">
               <img src={FooterLogo} />
             </div>
+            <hr/>
             <div className="col-md-12">
               <div className="social">
                 <ul>
@@ -109,6 +110,7 @@ const Layout = ({ children }) => {
                 </ul>
               </div>
             </div>
+            <hr/>
             <div className="col-md-12">
               <p>
                 © {new Date().getFullYear()},Copyright

@@ -6,6 +6,7 @@ import Road from "../images/road.png"
 import Watch from "../images/watch.svg"
 import RoadMobile from '../images/mobile-road.png'
 export default class Promo extends Component {
+
   render() {
     return (
       <section className="promo" id="promo">
@@ -39,10 +40,10 @@ export default class Promo extends Component {
             </div>
           </div>
           <div className="row mobile">
-            <div className="col-md-12">
+            <div>
               <div className="text vertical-center">
-                <h1>Powerful Logistics Platform!</h1>
-                <p>QLogistics is the next generation logistics platform.</p>
+                <h1 className="padding-all">Powerful Logistics Platform!</h1>
+                <p className="padding-all">QLogistics is the next generation logistics platform.</p>
                 <div className="image">
                   <img src={RoadMobile} />
                 </div>

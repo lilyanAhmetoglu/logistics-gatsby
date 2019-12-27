@@ -13,7 +13,7 @@ export default class Pricing extends Component {
           <div className="row">
             <div className="header">
               <h2>Prices</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Compatible package options for all kind of businesses.</p>
             </div>
           </div>
           <div className="row div-relative">
@@ -54,7 +54,9 @@ export default class Pricing extends Component {
                     <p>Dispatch routes to driver app</p>
                   </div>
                 </div>
+                <p className="bottom-p">* I am at the beginning!</p>
               </div>
+              
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="box-container prof">
@@ -96,8 +98,9 @@ export default class Pricing extends Component {
                     </p>
                   </div>
                 </div>
+               
               </div>
-              <p></p>
+              
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="box-container prem ">
@@ -106,7 +109,7 @@ export default class Pricing extends Component {
                 </div>
                 <div className="p-content">
                   <span>
-                    <h1>Custom</h1>
+                    <h2 className="custom-price">Custom</h2>
                     <p></p>
                   </span>
                   <p>
@@ -131,7 +134,9 @@ export default class Pricing extends Component {
                   </div>
                   <div className="item">
                     <img src={Check} />
-                    <p>Dispatch routes to driver app</p>
+                    <p>
+                      Customer Notifications available for an additional $19 USD
+                    </p>
                   </div>
                 </div>
               </div>

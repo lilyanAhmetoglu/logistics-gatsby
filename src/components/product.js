@@ -4,11 +4,14 @@ import Bootstrap, { Button } from "react-bootstrap"
 
 /* Resources */
 import product from "../images/product.png"
+import Driver from "../images/driver.png"
 import leftProduct from "../images/mobile-product-left.png"
 import rightProduct from "../images/mobile-product-right.png"
 import UpLine from "../images/up-line.svg"
 import DownLine from "../images/down-line.svg"
-
+import Tick from "../images/tick.svg"
+import Customer from '../images/customer.png'
+import CustomerMobil from '../images/customer-mobile.png'
 export default class Product extends Component {
   render() {
     return (
@@ -30,10 +33,10 @@ export default class Product extends Component {
                     <img className="aps" src={product} />
                   </Tab.Pane>
                   <Tab.Pane eventKey="Driver">
-                    <img className="aps" src={product} />
+                    <img className="aps" src={Driver} />
                   </Tab.Pane>
                   <Tab.Pane eventKey="Customer">
-                    <img className="aps" src={product} />
+                    <img className="aps" src={Customer} />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
@@ -54,33 +57,87 @@ export default class Product extends Component {
                     <div className="text">
                       <h2>Operating has never been easier like this!</h2>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation.
+                        Operating deliveries is now easy peasy. Everything is
+                        under your control and cristal clear without any
+                        confusion.
                       </p>
+                      <ul>
+                        <li>
+                          <img src={Tick} />
+                          <p>On time delivery</p>
+                        </li>
+                        <li>
+                          <img src={Tick} />
+                          <p>Easy task tracking from mobile device</p>
+                        </li>
+                        <li>
+                          <img src={Tick} />
+                          <p>Shortest and most accurate routes</p>
+                        </li>
+                        <li>
+                          <img src={Tick} />
+                          <p>Minimum traffic jam</p>
+                        </li>
+                      </ul>
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="Driver">
                     <div className="text">
-                      <h2>Operating has never been easier like this!</h2>
+                      <h2>
+                        There is no surprize on the route for the drivers.
+                      </h2>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation.
+                        All news are good also for the drivers. No more
+                        unachievable deliveries, wrong routes and traffic jams!
                       </p>
+                      <ul>
+                        <li>
+                          <img src={Tick} />
+                          <p>On time delivery</p>
+                        </li>
+                        <li>
+                          <img src={Tick} />
+                          <p>Easy task tracking from mobile device</p>
+                        </li>
+                        <li>
+                          <img src={Tick} />
+                          <p>Shortest and most accurate routes</p>
+                        </li>
+                        <li>
+                          <img src={Tick} />
+                          <p>Minimum traffic jam</p>
+                        </li>
+                      </ul>
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="Customer">
                     <div className="text">
-                      <h2>Operating has never been easier like this!</h2>
+                      <h2>
+                        It’s great to keep informed and satisfied all the
+                        customers.
+                      </h2>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation.
+                        The success of a delivery can only be measured
+                        accurately from the happiness on the customer's face.
                       </p>
+                      <ul>
+                        <li>
+                          <img src={Tick} />
+                          <p>On time delivery</p>
+                        </li>
+                        <li>
+                          <img src={Tick} />
+                          <p>Easy task tracking from mobile device</p>
+                        </li>
+                        <li>
+                          <img src={Tick} />
+                          <p>Shortest and most accurate routes</p>
+                        </li>
+                        <li>
+                          <img src={Tick} />
+                          <p>Minimum traffic jam</p>
+                        </li>
+                      </ul>
                     </div>
                   </Tab.Pane>
                 </Tab.Content>
@@ -94,65 +151,103 @@ export default class Product extends Component {
             </Row>
           </Tab.Container>
         </div>
-
         <div className="mobile">
-          <div className="row">
-            <div className="header">
-              <h2>Product</h2>
-              <p className="padding-all">
-                Easy to use dashboard supporting ever step of delivery process.
-              </p>
-            </div>
+          <div className="header">
+            <h2>Product</h2>
+            <p className="padding-all">
+              Easy to use dashboard supporting ever step of delivery process.
+            </p>
           </div>
           <div className="row-fluid">
             <div className="text ">
-              <h2 className="padding-all">Operating has never been easier like this!</h2>
-              <img  src={leftProduct} />
+              <h2 className="padding-all">
+                Operating has never been easier like this!
+              </h2>
+              <img src={leftProduct} />
               <p className="padding-all">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation.
+                Operating deliveries is now easy peasy. Everything is under your
+                control and cristal clear without any confusion.
               </p>
+              <ul>
+                <li>
+                  <img src={Tick} />
+                  <p>On time delivery</p>
+                </li>
+                <li>
+                  <img src={Tick} />
+                  <p>Easy task tracking from mobile device</p>
+                </li>
+                <li>
+                  <img src={Tick} />
+                  <p>Shortest and most accurate routes</p>
+                </li>
+                <li>
+                  <img src={Tick} />
+                  <p>Minimum traffic jam</p>
+                </li>
+              </ul>
             </div>
           </div>
-          <img src={UpLine} />
+          <img className="width100" src={UpLine} />
           <div className="row-fluid">
             <div className="text">
               <h2 className="text-right padding-all">
-                Operating has never been easier like this!
+                There is no surprize on the route for the drivers.
               </h2>
-              <img  src={rightProduct} />
+              <img src={rightProduct} />
               <p className="text-right padding-all">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation.
+                All news are good also for the drivers. No more unachievable
+                deliveries, wrong routes and traffic jams!
               </p>
+              <ul>
+                <li>
+                  <img src={Tick} />
+                  <p>On time delivery</p>
+                </li>
+                <li>
+                  <img src={Tick} />
+                  <p>Easy task tracking from mobile device</p>
+                </li>
+                <li>
+                  <img src={Tick} />
+                  <p>Shortest and most accurate routes</p>
+                </li>
+                <li>
+                  <img src={Tick} />
+                  <p>Minimum traffic jam</p>
+                </li>
+              </ul>
             </div>
           </div>
-          <img src={DownLine} />
+          <img className="width100" src={DownLine} />
           <div>
             <div className="text ">
-              <h2 className="padding-all">Operating has never been easier like this!</h2>
-              <img  src={leftProduct} />
-              <p className="padding-all">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation.
-              </p>
-            </div>
-          </div>
-          <img src={UpLine} />
-          <div className="row-fluid">
-            <div className="text">
-              <h2 className="text-right padding-all">
-                Operating has never been easier like this!
+              <h2 className="padding-all">
+                It’s great to keep informed and satisfied all the customers.
               </h2>
-              <img  src={rightProduct} />
-              <p className="text-right padding-all">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation.
+              <img src={CustomerMobil} />
+              <p className="padding-all">
+                The success of a delivery can only be measured accurately from
+                the happiness on the customer's face.
               </p>
+              <ul>
+                <li>
+                  <img src={Tick} />
+                  <p>On time delivery</p>
+                </li>
+                <li>
+                  <img src={Tick} />
+                  <p>Easy task tracking from mobile device</p>
+                </li>
+                <li>
+                  <img src={Tick} />
+                  <p>Shortest and most accurate routes</p>
+                </li>
+                <li>
+                  <img src={Tick} />
+                  <p>Minimum traffic jam</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

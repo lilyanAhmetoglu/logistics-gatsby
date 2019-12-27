@@ -14,7 +14,7 @@ export default class Contact extends Component {
           <div className="row">
             <div className="header">
               <h2>Contact Us</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>We’d love to hear from you.</p>
             </div>
           </div>
           <div className="row desktop">

@@ -1,12 +1,12 @@
 import React, { Component } from "react"
 import Bootstrap, { Carousel } from "react-bootstrap"
-
+import { Button } from "react-bootstrap"
 /*Resources */
 import Optim from "../images/optim.svg"
 import Task from "../images/tasks.svg"
 import Track from "../images/tracking.svg"
 import Instant from "../images/instant.svg"
-import { Button } from "react-bootstrap"
+
 
 export default class Features extends Component {
   render() {
@@ -100,7 +100,7 @@ export default class Features extends Component {
             <div className="row ">
               <div className="header">
                 <h2>Features</h2>
-                <p>There are lots of reasons to have QLogistics!</p>
+                <p>QLogistics is the next generation logistics platform.</p>
               </div>
             </div>
             <div className="row desktop">
@@ -154,53 +154,45 @@ export default class Features extends Component {
               </div>
             </div>
             <div className="row mobile">
-              <div className="col-md-12 core-product-cards-container">
-                <a className="core-product-card has-text-centered ">
-                  <div className="product-icon-container">
-                    <img src={Optim} className="product-icon" />
-                  </div>
+              <div className="col-md-12">
+                <div className="box-container">
+                  <img src={Optim} className="product-icon" />
                   <h4 className="product-title">2X FASTER ROUTE PLANNING</h4>
                   <p className="product-description">
                     Perfectly designed dashboard makes it easy to operate and
                     customize delivery routes.{" "}
                   </p>
-                </a>
+                </div>
               </div>
-              <div className="col-md-12 core-product-cards-container">
-                <a className="core-product-card has-text-centered ">
-                  <div className="product-icon-container">
-                    <img src={Task} className="product-icon" />
-                  </div>
+              <div className="col-md-12">
+                <div className="box-container">
+                  <img src={Task} className="product-icon" />
                   <h4 className="product-title">4X DELIVERY INCREASE</h4>
                   <p className="product-description">
                     Up to 4 times more deliveries per vehicle with perfectly
-                    optimized routes.{" "}
+                    optimized routes.
                   </p>
-                </a>
+                </div>
               </div>
-              <div className="col-md-12  core-product-cards-container">
-                <a className="core-product-card has-text-centered ">
-                  <div className="product-icon-container">
-                    <img src={Track} className="product-icon" />
-                  </div>
+              <div className="col-md-12 ">
+                <div className="box-container">
+                  <img src={Track} className="product-icon" />
                   <h4 className="product-title">%80 INCREASE PROFIT</h4>
                   <p className="product-description">
                     By Increasing deliveries per each route, fuel and time costs
-                    will be reduced.{" "}
+                    will be reduced.
                   </p>
-                </a>
+                </div>
               </div>
-              <div className="col-md-12 core-product-cards-container">
-                <a className="core-product-card has-text-centered ">
-                  <div className="product-icon-container">
-                    <img src={Instant} className="product-icon" />
-                  </div>
+              <div className="col-md-12">
+                <div className="box-container">
+                  <img src={Instant} className="product-icon" />
                   <h4 className="product-title">%35 SHORTER ROUTES</h4>
                   <p className="product-description">
                     Up to 35% shorter routes using AI technologies such as
                     predicting traffic data.
                   </p>
-                </a>
+                </div>
               </div>
             </div>
             <div className="row bottom">

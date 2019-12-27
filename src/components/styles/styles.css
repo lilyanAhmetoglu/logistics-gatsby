@@ -12,17 +12,17 @@ header {
   top: 0;
   z-index: 10000;
 }
-.desktop{
+.desktop {
   display: -webkit-box;
 }
-.desktop-products{
+.desktop-products {
   display: block;
 }
-.mobile{
+.mobile {
   display: none;
 }
-.padding-all{
-  padding-left:15px;
+.padding-all {
+  padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -364,11 +364,11 @@ p {
 /*Navbar*/
 .l-navbar {
   background-color: var(--navbar-background-color--);
-  line-height: 50px;
+  line-height: 35px;
 }
 
 .l-navbar .navbar-nav .nav-link {
-  color: var(--gray-font-color--);
+  color: var(--gray-font-color--) !important;
   font-size: 16px;
 }
 .l-navbar .navbar-nav .nav-link:hover,
@@ -377,6 +377,9 @@ p {
 }
 .l-navbar .navbar-light .navbar-nav .nav-link {
   color: var(--secondary-color--) !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: var(--gray-font-color--) !important;
 }
 /*promo section*/
 .promo {
@@ -613,7 +616,7 @@ p {
 /*Product*/
 .product {
   padding-top: 50px;
-
+  overflow: hidden;
   background-color: var(--main-theme-color);
 }
 .product .aps {
@@ -676,12 +679,25 @@ p {
   line-height: 1.6;
   letter-spacing: normal;
   color: var(--gray-font-color--);
+  margin-bottom: 10px;
+}
+.product .text ul li {
+  display: flex;
+}
+.product .text ul li p {
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.85;
+  margin-bottom: 0;
+  margin-left: 5px;
 }
 .product .bottom {
   display: inline-block;
 }
 .product .bottom button {
-  margin-top: 70px;
+  margin-top: 10px;
 }
 .product .bottom p {
   font-size: 12px;
@@ -728,13 +744,12 @@ p {
 .pricing .prof {
   border-bottom: 10px solid var(--main-theme-color) !important;
   margin-bottom: -25px;
-  box-shadow: 0 3px 50px 0 rgba(0,0,0,.2);
+  box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.2);
 }
 .pricing .prem {
   border-bottom: 10px solid var(--secondary-color--) !important;
   position: absolute;
   bottom: 0;
-
 }
 .pricing .prof .header {
   background-color: var(--main-theme-color) !important;
@@ -760,7 +775,16 @@ p {
   letter-spacing: normal;
   color: var(--whtie-font-color--);
 }
-.pricing .box-container .p-content {
+.pricing .box-container .bottom-p {
+  position: absolute;
+  bottom: -60px;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #353a47;
 }
 .pricing .box-container .p-content span {
   text-align: center;
@@ -842,6 +866,9 @@ p {
   border-top: 1px solid var(--gray-font-color--);
 }
 .pricing .box-container .p-features .item img {
+}
+.custom-price{
+  font-size: 50px;
 }
 .pricing .box-container .p-features .item p {
   margin-left: 10px;
