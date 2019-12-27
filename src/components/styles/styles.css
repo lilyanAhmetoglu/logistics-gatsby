@@ -12,6 +12,21 @@ header {
   top: 0;
   z-index: 10000;
 }
+.desktop{
+  display: -webkit-box;
+}
+.desktop-products{
+  display: block;
+}
+.mobile{
+  display: none;
+}
+.padding-all{
+  padding-left:15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 .btn-primary {
   background-color: var(--secondary-color--) !important;
   color: var(--navbar-background-color--) !important;

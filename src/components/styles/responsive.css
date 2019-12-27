@@ -1,0 +1,215 @@
+@media (max-width: 994px) {
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("../../images/toggle.svg") !important;
+  }
+  .l-navbar {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 766px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .desktop-products{
+    display: none;
+  }
+  .vertical-center {
+    position: relative;
+    top: 50%;
+    -webkit-transform: unset;
+    transform: unset;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("../../images/toggle.svg") !important;
+  }
+  .navbar-light .navbar-toggler {
+    border: unset;
+    border-color: unset;
+  }
+  .promo {
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  .promo .text h1 {
+    font-size: 30px;
+    color: var(--secondary-color--);
+  }
+  .promo .inter-active {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .promo .inter-active a {
+    display: block;
+    margin-left: 0;
+    margin: auto;
+    text-align: center;
+    width: 140px;
+  }
+  .promo .text p {
+    font-size: 18px;
+  }
+
+  .features .yellow-section .title {
+    text-align: left;
+    font-size: 18px;
+    line-height: unset;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .features .yellow-section .text {
+    font-size: 14px;
+    padding-right: 50px;
+  }
+  .core-product-cards-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .core-product-cards-container .core-product-card {
+    margin-bottom: 30px;
+  }
+  .journey .header p {
+    font-size: 18px;
+  }
+  .video {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .team {
+    background-image: unset;
+    background-color: var(--gray-font-color--);
+  }
+  .truck {
+    background-image: url("../../images/mobile-truck.png");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: 95% center;
+    background-size: contain;
+  }
+  .team .left-text {
+    padding-bottom: 20px;
+  }
+  .team .left-text p {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  .team .right-text {
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 0;
+  }
+  .team .right-text p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+  }
+  .team button {
+    display: block;
+    margin: auto;
+  }
+  .team .truck {
+    padding-bottom: 40px;
+  }
+  .team .label {
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .product {
+    padding-bottom: 50px;
+  }
+  .product .text {
+    margin-top: 40px;
+    padding-right: 0;
+  }
+  .text-align-right {
+    text-align: right;
+  }
+  .product .header h2 {
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 0;
+  }
+  .product .header p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+  }
+  .product .text h2 {
+    font-size: 24px;
+  }
+  .product .text p {
+    font-size: 14px;
+    line-height: 1.43;
+    margin-bottom: 0;
+  }
+  .product .aps-right {
+    margin-right: -15px;
+}
+
+.pricing .header h2 {
+  font-size: 26px;
+}
+.pricing .header p {
+  font-size: 18px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+  .pricing .prem {
+    position: relative;
+  }
+  .pricing .essential {
+    position: relative;
+  }
+  .pricing .box-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+  }
+  .pricing {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+  .contact .right-section {
+    border-left: none;
+    padding-left: initial;
+    padding-right: inherit;
+  }
+  .contact hr {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    background: var(--gray-font-color--);
+  }
+  .contact .left-section h1 {
+    font-size: 30px;
+  }
+  .contact .left-section p {
+    font-size: 18px;
+  }
+  footer .social ul {
+    display: inline-flex;
+    float: none; 
+    margin-left: 0;
+}
+}
