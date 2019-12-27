@@ -54,7 +54,7 @@ export default class Pricing extends Component {
                     <p>Dispatch routes to driver app</p>
                   </div>
                 </div>
-                <p className="bottom-p">* I am at the beginning!</p>
+                
               </div>
               
             </div>
