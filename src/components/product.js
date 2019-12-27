@@ -10,8 +10,8 @@ import rightProduct from "../images/mobile-product-right.png"
 import UpLine from "../images/up-line.svg"
 import DownLine from "../images/down-line.svg"
 import Tick from "../images/tick.svg"
-import Customer from '../images/customer.png'
-import CustomerMobil from '../images/customer-mobile.png'
+import Customer from "../images/customer.png"
+import CustomerMobil from "../images/customer-mobile.png"
 export default class Product extends Component {
   render() {
     return (
@@ -64,19 +64,22 @@ export default class Product extends Component {
                       <ul>
                         <li>
                           <img src={Tick} />
-                          <p>On time delivery</p>
+                          <p>Perfectly optimized routes</p>
                         </li>
                         <li>
                           <img src={Tick} />
-                          <p>Easy task tracking from mobile device</p>
+                          <p>Easy to add and change tasks</p>
                         </li>
                         <li>
                           <img src={Tick} />
-                          <p>Shortest and most accurate routes</p>
+                          <p>Live tracking of all vehicles</p>
                         </li>
                         <li>
                           <img src={Tick} />
-                          <p>Minimum traffic jam</p>
+                          <p>
+                            Re-route optimization in seconds when you add a new
+                            task
+                          </p>
                         </li>
                       </ul>
                     </div>
@@ -123,19 +126,19 @@ export default class Product extends Component {
                       <ul>
                         <li>
                           <img src={Tick} />
-                          <p>On time delivery</p>
+                          <p>Fast and trouble-free delivery</p>
                         </li>
                         <li>
                           <img src={Tick} />
-                          <p>Easy task tracking from mobile device</p>
+                          <p>Live delivery track</p>
                         </li>
                         <li>
                           <img src={Tick} />
-                          <p>Shortest and most accurate routes</p>
+                          <p>Live support</p>
                         </li>
                         <li>
                           <img src={Tick} />
-                          <p>Minimum traffic jam</p>
+                          <p>Delivery confirmation</p>
                         </li>
                       </ul>
                     </div>
@@ -171,19 +174,21 @@ export default class Product extends Component {
               <ul>
                 <li>
                   <img src={Tick} />
-                  <p>On time delivery</p>
+                  <p>Perfectly optimized routes</p>
                 </li>
                 <li>
                   <img src={Tick} />
-                  <p>Easy task tracking from mobile device</p>
+                  <p>Easy to add and change tasks</p>
                 </li>
                 <li>
                   <img src={Tick} />
-                  <p>Shortest and most accurate routes</p>
+                  <p>Live tracking of all vehicles</p>
                 </li>
                 <li>
                   <img src={Tick} />
-                  <p>Minimum traffic jam</p>
+                  <p>
+                    Re-route optimization in seconds when you add a new task
+                  </p>
                 </li>
               </ul>
             </div>
@@ -233,19 +238,19 @@ export default class Product extends Component {
               <ul>
                 <li>
                   <img src={Tick} />
-                  <p>On time delivery</p>
+                  <p>Fast and trouble-free delivery</p>
                 </li>
                 <li>
                   <img src={Tick} />
-                  <p>Easy task tracking from mobile device</p>
+                  <p>Live delivery track</p>
                 </li>
                 <li>
                   <img src={Tick} />
-                  <p>Shortest and most accurate routes</p>
+                  <p>Live support</p>
                 </li>
                 <li>
                   <img src={Tick} />
-                  <p>Minimum traffic jam</p>
+                  <p>Delivery confirmation</p>
                 </li>
               </ul>
             </div>

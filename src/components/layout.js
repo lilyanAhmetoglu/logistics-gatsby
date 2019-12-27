@@ -53,32 +53,31 @@ const Layout = ({ children }) => {
             </div>
             <div className="col-md-4">
               <div className="social">
-                <ul>
+              <ul>
                   <li>
-                    <Link>
-                      <img src={LikedIn} />
-                    </Link>
+                    <a href="https://www.linkedin.com/company/10208976" target="_blank">
+                      <img  src={LikedIn} />
+                    </a>
                   </li>
                   <li>
-                    <Link>
+                    <a href="https://www.facebook.com/Qimia.bigdata" target="_blank">
                       <img src={Facebook} />
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link>
+                    <a href="https://twitter.com/qimiainc" target="_blank">
                       <img src={Twitter} />
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link>
+                    <a href="https://www.youtube.com/channel/UCtJzg2Ib74_QXKQ0ELRpigg" target="_blank"> 
                       <img src={Youtube} />
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-
           <div className="row mobile">
             <div className="col-md-12 ">
               <img src={FooterLogo} />
@@ -88,24 +87,24 @@ const Layout = ({ children }) => {
               <div className="social">
                 <ul>
                   <li>
-                    <Link>
-                      <img src={LikedIn} />
-                    </Link>
+                    <a href="https://www.linkedin.com/company/10208976" target="_blank">
+                      <img  src={LikedIn} />
+                    </a>
                   </li>
                   <li>
-                    <Link>
+                    <a href="https://www.facebook.com/Qimia.bigdata" target="_blank">
                       <img src={Facebook} />
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link>
+                    <a href="https://twitter.com/qimiainc" target="_blank">
                       <img src={Twitter} />
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link>
+                    <a href="https://www.youtube.com/channel/UCtJzg2Ib74_QXKQ0ELRpigg" target="_blank"> 
                       <img src={Youtube} />
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
