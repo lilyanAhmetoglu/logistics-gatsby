@@ -98,9 +98,8 @@ export default class Pricing extends Component {
                     </p>
                   </div>
                 </div>
-               
               </div>
-              
+              <p></p>
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="box-container prem ">
