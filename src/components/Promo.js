@@ -34,7 +34,7 @@ export default class Promo extends Component {
                 <p>QLogistics is the next generation logistics platform.</p>
                 <div className="inter-active">
                   <div className="bottom">
-                    <Button onClick={this.onClick} className="ctrl-standard fx-sliderIn" my="2 sm-0">
+                    <Button onClick={this.onClick} className="ctrl-standard fx-sliderIn " my="2 sm-0">
                       Get Started
                     </Button>
                     <p className="credit">Free for 7 days.</p>
@@ -63,10 +63,9 @@ export default class Promo extends Component {
                 </div>
                 <div className="inter-active">
                   <div className="bottom">
-                    <Button onClick={this.onClick} className="ctrl-standard fx-sliderIn" my="2 sm-0">
+                    <Button onClick={this.onClick} className="ctrl-standard fx-sliderIn block" my="2 sm-0">
                       Get Started
-                    </Button>
-                    react-router-dom
+                    </Button>                  
                     <p className="credit">Free for 7 days.</p>
                   </div>
                   <a
