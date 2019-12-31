@@ -397,13 +397,14 @@ p {
 }
 .promo .text {
   z-index: 1;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 .promo .svgContainer {
   position: absolute;
   overflow: HIDDEN;
   left: 0;
   height: 100vh;
+  width: 100%;
 }
 .promo .text h1 {
   font-size: 60px;
