@@ -148,7 +148,6 @@ p {
   bottom: 0;
   width: 140px;
   height: 1px;
-  background-color: var(--navbar-background-color--);
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -201,7 +200,6 @@ p {
   transform: translateX(-50%);
   width: 90px;
   height: 1px;
-  background-color: #1c2b39;
   opacity: 0;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -564,7 +562,7 @@ p {
 .journey {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url("../../images/product-journey-background.svg");
+  background-image: url("../../images/product-journey-background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1077,6 +1075,7 @@ p {
 }
 .contact .right-section button {
   margin-top: 30px !important;
+  font-weight: 900 !important;
   display: block;
   margin: auto;
 }

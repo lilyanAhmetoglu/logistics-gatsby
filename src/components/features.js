@@ -9,6 +9,9 @@ import Instant from "../images/instant.svg"
 
 
 export default class Features extends Component {
+  onClick() {
+    window.location.href = "https://app.qlogistics.io/"
+  }
   render() {
     return (
       <section className="features" id="features">
@@ -100,7 +103,7 @@ export default class Features extends Component {
             <div className="row ">
               <div className="header">
                 <h2>Features</h2>
-                <p>QLogistics is the next generation logistics platform.</p>
+                <p>There are lots of reasons to have QLogistics!</p>
               </div>
             </div>
             <div className="row desktop">
@@ -196,7 +199,9 @@ export default class Features extends Component {
               </div>
             </div>
             <div className="row bottom">
-              <Button className="ctrl-standard fx-sliderIn">Free Trial</Button>
+              <Button 
+              onClick={this.onClick}
+              className="ctrl-standard fx-sliderIn">Free Trial</Button>
               <p>Try for 7 days.</p>
             </div>
           </div>

@@ -8,8 +8,10 @@ import Road from "../images/road.png"
 import Watch from "../images/watch.svg"
 import RoadMobile from "../images/mobile-road.png"
 export default class Promo extends Component {
+  btnClick() {
+    window.open("https://www.google.com")
+  }
 
-  
   render() {
     const defaultOptions = {
       loop: true,
@@ -61,7 +63,7 @@ export default class Promo extends Component {
                 </div>
                 <div className="inter-active">
                   <div className="bottom">
-                    <Button className="ctrl-standard fx-sliderIn" my="2 sm-0">
+                    <Button onClick={this.btnClick.bind(this)} className="ctrl-standard fx-sliderIn" my="2 sm-0">
                       Get Started
                     </Button>
                     <p className="credit">Free for 7 days.</p>

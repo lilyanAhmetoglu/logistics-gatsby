@@ -51,7 +51,7 @@ export default class NavBar extends Component {
               className="ctrl-standard fx-sliderIn login button-line"
               my="2 sm-0"
             >
-              <img src={Login} /> Login
+              <img src={Login} /> Log In
             </Button>
           </Navbar.Collapse>
         </Navbar>
