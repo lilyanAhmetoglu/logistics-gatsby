@@ -51,6 +51,13 @@ p {
 .width100 {
   width: 100%;
 }
+.button-line {
+  background-image: url("../../images/button-line.png");
+  background-size: 2px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position-x: 45px;
+}
 .carousel-initialized {
   overflow: hidden;
   position: relative;
@@ -385,14 +392,24 @@ p {
 /*promo section*/
 .promo {
   overflow: auto;
-  background-color: var(--main-theme-color);
+  background-color: #1c212b;
+  height: 100vh;
 }
 .promo .text {
+  z-index: 1;
+  margin-top: 25%;
+}
+.promo .svgContainer {
+  position: absolute;
+  overflow: HIDDEN;
+  left: 0;
+  height: 100vh;
 }
 .promo .text h1 {
   font-size: 60px;
   color: var(--secondary-color--);
 }
+
 .promo .text p {
   font-size: 22px;
   color: var(--gray-font-color--);
@@ -868,7 +885,7 @@ p {
 }
 .pricing .box-container .p-features .item img {
 }
-.custom-price{
+.custom-price {
   font-size: 50px;
 }
 .pricing .box-container .p-features .item p {

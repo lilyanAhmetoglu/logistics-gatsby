@@ -33,8 +33,8 @@ export default class NavBar extends Component {
                 Contact
               </AnchorLink>
             </Nav>
-            <Button className="ctrl-standard fx-sliderIn" my="2 sm-0">
-              <img src={Login} /> Login
+            <Button className="ctrl-standard fx-sliderIn button-line" my="2 sm-0">
+              <img src={Login} />  Login
             </Button>
           </Navbar.Collapse>
         </Navbar>
