@@ -30,7 +30,7 @@ export default class Promo extends Component {
             </div>
             <div className="col-md-7 col-sm-12">
               <div className="text vertical-center">
-                <h1>Powerful Logistics Platform!</h1>
+                <h1>Powerful Logistics <br/>  Platform!</h1>
                 <p>QLogistics is the next generation logistics platform.</p>
                 <div className="inter-active">
                   <div className="bottom">
