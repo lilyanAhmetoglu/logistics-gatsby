@@ -8,6 +8,8 @@ import Road from "../images/road.png"
 import Watch from "../images/watch.svg"
 import RoadMobile from "../images/mobile-road.png"
 export default class Promo extends Component {
+
+  
   render() {
     const defaultOptions = {
       loop: true,

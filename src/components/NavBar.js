@@ -5,6 +5,19 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 import Logo from "../images/logo.png"
 import Login from "../images/login.svg"
 export default class NavBar extends Component {
+  onClick() {
+    window.location.href = "https://app.qlogistics.io/"
+  }
+  componentDidMount() {
+    var btns = document.getElementsByClassName("nav-link")
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active")
+        current[0].className = current[0].className.replace(" active", "")
+        this.className += " active"
+      })
+    }
+  }
   render() {
     return (
       <>
@@ -33,8 +46,12 @@ export default class NavBar extends Component {
                 Contact
               </AnchorLink>
             </Nav>
-            <Button className="ctrl-standard fx-sliderIn button-line" my="2 sm-0">
-              <img src={Login} />  Login
+            <Button
+              onClick={this.onClick}
+              className="ctrl-standard fx-sliderIn login button-line"
+              my="2 sm-0"
+            >
+              <img src={Login} /> Login
             </Button>
           </Navbar.Collapse>
         </Navbar>

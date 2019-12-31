@@ -30,11 +30,13 @@ header {
 .btn-primary {
   background-color: var(--secondary-color--) !important;
   color: var(--navbar-background-color--) !important;
-  min-width: 150px;
+  min-width: 190px;
+  min-height: 50px;
   font-weight: 700 !important;
   border-radius: 10px !important;
   border: var(--secondary-color--);
 }
+
 .btn-primary img {
   float: left;
   margin-top: 3px;
@@ -311,7 +313,14 @@ p {
 .ctrl-standard.fx-sliderIn::after {
   background: var(--button-hover-color);
 }
-
+.ctrl-standard.fx-sliderIn.login::after {
+  background: var(--button-hover-color);
+  background-image: url("../../images/button-line.png");
+  background-size: 2px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position-x: 45px;
+}
 [class*="ctrl-"][class*="fx-"]:hover,
 [class*="ctrl-"][class*="fx-"].active {
   color: #231f20;
@@ -389,6 +398,9 @@ p {
 .navbar-light .navbar-nav .nav-link {
   color: var(--gray-font-color--) !important;
 }
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--secondary-color--) !important;
+}
 /*promo section*/
 .promo {
   overflow: auto;
@@ -397,7 +409,7 @@ p {
 }
 .promo .text {
   z-index: 1;
-  margin-top: 15%;
+  margin-top: 25%;
 }
 .promo .svgContainer {
   position: absolute;
@@ -407,7 +419,7 @@ p {
   width: 100%;
 }
 .promo .text h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: var(--secondary-color--);
 }
 
@@ -1086,6 +1098,9 @@ p {
 }
 .MuiOutlinedInput-colorSecondary.Mui-focused .MuiOutlinedInput-notchedOutline {
   border-color: var(--secondary-color--) !important;
+}
+.MuiInputBase-input {
+  color:var(--whtie-font-color--) !important;
 }
 /*Footer*/
 footer {

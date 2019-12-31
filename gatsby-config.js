@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Q Logistics`,
+    description: `QLogistics is the next generation logistics platform.`,
+    author: `qlogistics`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,7 +20,7 @@ module.exports = {
       options: {
         fonts: [
           `Work Sans`,
-          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+          `source sans pro\:300,400,400i,700,800,900,600` // you can also specify font weights and styles
         ],
         display: 'swap'
       }
