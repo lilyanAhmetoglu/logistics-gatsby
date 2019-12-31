@@ -29,7 +29,7 @@ header {
 }
 .btn-primary {
   background-color: var(--secondary-color--) !important;
-  color: var(--navbar-background-color--) !important;
+  color: var(--navbar-background-color--);
   min-width: 190px;
   min-height: 50px;
   font-weight: 700 !important;
@@ -186,8 +186,6 @@ p {
   transition: all 0.3s ease;
 }
 .core-product-cards-container .core-product-card .product-title {
-  margin-bottom: 30px;
-  padding-bottom: 30px;
 }
 .core-product-cards-container .core-product-card .product-title:after {
   content: "";
@@ -311,6 +309,9 @@ p {
 .ctrl-standard.fx-sliderIn::after {
   background: var(--button-hover-color);
 }
+.ctrl-standard.fx-sliderIn.custom::after {
+  background: var(--navbar-background-color--);
+}
 .ctrl-standard.fx-sliderIn.login::after {
   background: var(--button-hover-color);
   background-image: url("../../images/button-line.png");
@@ -319,9 +320,17 @@ p {
   background-repeat: no-repeat;
   background-position-x: 45px;
 }
+
 [class*="ctrl-"][class*="fx-"]:hover,
 [class*="ctrl-"][class*="fx-"].active {
   color: #231f20;
+}
+.ctrl-standard.fx-sliderIn.custom{
+  background-color: var(--main-theme-color)!important;
+  color: var(--gray-font-color--)!important;
+}
+.ctrl-standard.fx-sliderIn.custom:hover{
+  color: var(--gray-font-color--);
 }
 
 [class*="fx-"],
@@ -417,7 +426,7 @@ p {
   width: 100%;
 }
 .promo .text h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: var(--secondary-color--);
 }
 
@@ -572,6 +581,7 @@ p {
 }
 .journey .header h2 {
   font-weight: 600;
+  margin-bottom: 20px;
   letter-spacing: 0.99px;
   color: var(--whtie-font-color--);
 }
@@ -867,7 +877,7 @@ p {
 }
 .pricing .box-container .p-content .bottom button {
   margin: auto;
-  min-width: 200px;
+  min-width: 250px;
 }
 .pricing .box-container .p-content .bottom p {
   font-size: 12px;
@@ -1002,6 +1012,7 @@ p {
 }
 .contact .header h2 {
   font-weight: 600;
+  margin-bottom: 20px;
   letter-spacing: 0.99px;
   color: var(--whtie-font-color--);
 }
@@ -1099,7 +1110,7 @@ p {
   border-color: var(--secondary-color--) !important;
 }
 .MuiInputBase-input {
-  color:var(--whtie-font-color--) !important;
+  color: var(--whtie-font-color--) !important;
 }
 /*Footer*/
 footer {

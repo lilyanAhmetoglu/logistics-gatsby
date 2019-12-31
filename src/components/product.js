@@ -55,7 +55,7 @@ export default class Product extends Component {
                 <Tab.Content>
                   <Tab.Pane eventKey="Operator">
                     <div className="text">
-                      <h2>Operating has never been easier like this!</h2>
+                      <h2>Operating has never been<br/>easier like this!</h2>
                       <p>
                         Operating deliveries is now easy peasy. Everything is
                         under your control and cristal clear without any
@@ -87,7 +87,7 @@ export default class Product extends Component {
                   <Tab.Pane eventKey="Driver">
                     <div className="text">
                       <h2>
-                        There is no surprize on the route for the drivers.
+                        There is no surprize<br />on the route for the drivers.
                       </h2>
                       <p>
                         All news are good also for the drivers. No more
@@ -116,7 +116,7 @@ export default class Product extends Component {
                   <Tab.Pane eventKey="Customer">
                     <div className="text">
                       <h2>
-                        It’s great to keep informed and satisfied all the
+                        It’s great to keep informed and <br />satisfied all the
                         customers.
                       </h2>
                       <p>

@@ -1,6 +1,9 @@
 import React, { Component } from "react"
 import { Button } from "react-bootstrap"
 export default class Team extends Component {
+  onClick() {
+    window.location.href = "https://app.qlogistics.io/"
+  }
   render() {
     return (
       <section className="team ">
@@ -22,7 +25,10 @@ export default class Team extends Component {
                     requierments such as Machine Learning, Artifical
                     Intelligence, Reinforcement Learning, UI/UX Design and more.{" "}
                   </p>
-                  <Button className="ctrl-standard fx-sliderIn">
+                  <Button
+                    onClick={this.onClick}
+                    className="ctrl-standard fx-sliderIn"
+                  >
                     Free Trial
                   </Button>
                   <p className="label">Try for 7 days.</p>
@@ -44,7 +50,10 @@ export default class Team extends Component {
                     Intelligence, Reinforcement Learning, UI/UX Design and more.{" "}
                   </p>
                 </div>
-                <Button className="ctrl-standard fx-sliderIn">
+                <Button
+                  onClick={this.onClick}
+                  className="ctrl-standard fx-sliderIn"
+                >
                   Free Trial
                 </Button>
                 <p className="label">Try for 7 days.</p>

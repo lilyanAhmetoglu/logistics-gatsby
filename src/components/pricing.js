@@ -1,11 +1,14 @@
 import React, { Component } from "react"
 import Bootstrap, { Carousel, BImg, Button } from "react-bootstrap"
-
+import AnchorLink from "react-anchor-link-smooth-scroll"
 /*Resources */
 import Check from "../images/check.svg"
 import Prof from "../images/prof.svg"
 
 export default class Pricing extends Component {
+  onClick() {
+    window.location.href = "https://app.qlogistics.io/"
+  }
   render() {
     return (
       <section className="pricing" id="pricing">
@@ -25,7 +28,7 @@ export default class Pricing extends Component {
                 <div className="p-content">
                   <span>
                     <h1>
-                      <span className="dollar">&#36;</span>17.99
+                      <span className="dollar">&#36;</span>37.99
                     </h1>
                     <p>Per vehicle / month</p>
                   </span>
@@ -34,7 +37,7 @@ export default class Pricing extends Component {
                     <br /> dispatch optimized routes
                   </p>
                   <div className="bottom">
-                    <Button className="ctrl-standard fx-sliderIn">
+                    <Button onClick={this.onClick}  className="ctrl-standard fx-sliderIn">
                       Try for Free
                     </Button>
                     <p>No Credit Card Requiered.</p>
@@ -54,9 +57,7 @@ export default class Pricing extends Component {
                     <p>Dispatch routes to driver app</p>
                   </div>
                 </div>
-                
               </div>
-              
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="box-container prof">
@@ -67,7 +68,7 @@ export default class Pricing extends Component {
                 <div className="p-content">
                   <span>
                     <h1>
-                      <span className="dollar">&#36;</span>24.99
+                      <span className="dollar">&#36;</span>89.99
                     </h1>
                     <p>Per vehicle / month</p>
                   </span>
@@ -76,7 +77,7 @@ export default class Pricing extends Component {
                     driver management tools
                   </p>
                   <div className="bottom">
-                    <Button className="ctrl-standard fx-sliderIn">
+                    <Button onClick={this.onClick}  className="ctrl-standard fx-sliderIn">
                       Try for Free
                     </Button>
                     <p>No Credit Card Requiered.</p>
@@ -94,7 +95,7 @@ export default class Pricing extends Component {
                   <div className="item">
                     <img src={Check} />
                     <p>
-                      Customer Notifications available for an additional $19 USD
+                      Customer Notifications available for an additional $29 USD
                     </p>
                   </div>
                 </div>
@@ -116,9 +117,11 @@ export default class Pricing extends Component {
                     <br /> custom support
                   </p>
                   <div className="bottom">
-                    <Button className="ctrl-standard fx-sliderIn">
-                      Try for Free
-                    </Button>
+                    <AnchorLink className="nav-link " href="#contact">
+                      <Button className="ctrl-standard fx-sliderIn custom">
+                        Contact with Sales Team
+                      </Button>
+                    </AnchorLink>
                     <p>No Credit Card Requiered.</p>
                   </div>
                 </div>
@@ -134,7 +137,7 @@ export default class Pricing extends Component {
                   <div className="item">
                     <img src={Check} />
                     <p>
-                      Customer Notifications available for an additional $19 USD
+                      Customer Notifications available for an additional $29 USD
                     </p>
                   </div>
                 </div>

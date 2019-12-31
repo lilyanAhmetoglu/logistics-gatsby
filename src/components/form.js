@@ -19,7 +19,7 @@ export default function ColorTextFields() {
       <TextField
       className="margintop20"
         id="outlined-secondary"
-        label="Outlined secondary"
+        label="About Project"
         multiline
         rows="4"
         variant="outlined"

@@ -3,15 +3,15 @@ import { Button } from "react-bootstrap"
 import { Link } from "gatsby"
 import Lottie from "react-lottie"
 import animationData from "../components/animation"
+import { useHistory } from 'react-router-dom';
 /* Resources*/
 import Road from "../images/road.png"
 import Watch from "../images/watch.svg"
 import RoadMobile from "../images/mobile-road.png"
 export default class Promo extends Component {
-  btnClick() {
-    window.open("https://www.google.com")
+  onClick() {
+    window.location.href = "https://app.qlogistics.io/"
   }
-
   render() {
     const defaultOptions = {
       loop: true,
@@ -34,7 +34,7 @@ export default class Promo extends Component {
                 <p>QLogistics is the next generation logistics platform.</p>
                 <div className="inter-active">
                   <div className="bottom">
-                    <Button className="ctrl-standard fx-sliderIn" my="2 sm-0">
+                    <Button onClick={this.onClick} className="ctrl-standard fx-sliderIn" my="2 sm-0">
                       Get Started
                     </Button>
                     <p className="credit">Free for 7 days.</p>
@@ -63,9 +63,10 @@ export default class Promo extends Component {
                 </div>
                 <div className="inter-active">
                   <div className="bottom">
-                    <Button onClick={this.btnClick.bind(this)} className="ctrl-standard fx-sliderIn" my="2 sm-0">
+                    <Button onClick={this.onClick} className="ctrl-standard fx-sliderIn" my="2 sm-0">
                       Get Started
                     </Button>
+                    react-router-dom
                     <p className="credit">Free for 7 days.</p>
                   </div>
                   <a
