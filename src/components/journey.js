@@ -15,10 +15,12 @@ export default class Features extends Component {
             </div>
           </div>
           <div className="row">
-            <Video
-              videoSrcURL="https://www.youtube.com/embed/9mdQPy26hGM"
-              videoTitle="Qimia Logistics.AI - Powerful Logistic Platform"
-            />
+            <div className="video">
+              <Video
+                videoSrcURL="https://www.youtube.com/embed/9mdQPy26hGM"
+                videoTitle="Qimia Logistics.AI - Powerful Logistic Platform"
+              />
+            </div>
           </div>
         </div>
       </section>

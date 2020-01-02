@@ -104,7 +104,6 @@ export default class Promo extends Component {
                     onClick={() => this.openModal()}
                     target="_blank"
                   />
-                  
                 </div>
               </div>
             </div>
@@ -113,18 +112,13 @@ export default class Promo extends Component {
         <Modal
           visible={this.state.visible}
           width="700"
-          height="300"
           effect="fadeInUp"
           onClickAway={() => this.closeModal()}
         >
-          <div className="container">
-          <div className="row">
-            <Video
-              videoSrcURL="https://www.youtube.com/embed/9mdQPy26hGM"
-              videoTitle="Qimia Logistics.AI - Powerful Logistic Platform"
-            />
-          </div>
-        </div>
+          <Video
+            videoSrcURL="https://www.youtube.com/embed/9mdQPy26hGM"
+            videoTitle="Qimia Logistics.AI - Powerful Logistic Platform"
+          />
         </Modal>
       </section>
     )

@@ -1,8 +1,8 @@
 import React from "react"
 const Video = ({ videoSrcURL, videoTitle}) => (
-  <div className="video embed-responsive embed-responsive-16by9">
+  <div className=" embed-responsive embed-responsive-16by9">
     <iframe
-      className="embed-responsive-item"
+      className=""
       src={videoSrcURL}
       title={videoTitle}
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
