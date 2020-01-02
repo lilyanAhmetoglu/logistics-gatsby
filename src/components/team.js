@@ -13,17 +13,18 @@ export default class Team extends Component {
               <div className="col-md-6">
                 <div className="left-text">
                   <p>
-                    There is a very big technology team working for you behind
-                    the QLogistics!
+                    We are working to turn yout investment into value with our
+                    expert team!
                   </p>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="right-text">
                   <p className="marginbottom5">
-                    We are a team that touches every part of the technology
-                    requierments such as Machine Learning, Artifical
-                    Intelligence, Reinforcement Learning, UI/UX Design and more.{" "}
+                    Highly skilled team is key for the existence and success of
+                    technology companies.Our team combines academic knowledge
+                    with project based problems, expert in their own
+                    areas,creative, analytic and collaborative.{" "}
                   </p>
                   <Button
                     onClick={this.onClick}
@@ -39,15 +40,16 @@ export default class Team extends Component {
               <div className="col-md-12">
                 <div className="left-text">
                   <p>
-                    There is a very big technology team working for you behind
-                    the QLogistics!
+                    We are working to turn yout investment into value with our
+                    expert team!
                   </p>
                 </div>
                 <div className="right-text">
                   <p className="marginbottom5">
-                    We are a team that touches every part of the technology
-                    requierments such as Machine Learning, Artifical
-                    Intelligence, Reinforcement Learning, UI/UX Design and more.{" "}
+                    Highly skilled team is key for the existence and success of
+                    technology companies.Our team combines academic knowledge
+                    with project based problems, expert in their own
+                    areas,creative, analytic and collaborative.{" "}
                   </p>
                 </div>
                 <Button

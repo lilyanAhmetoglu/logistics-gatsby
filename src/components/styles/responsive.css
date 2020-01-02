@@ -56,7 +56,7 @@
     margin: auto;
     text-align: center;
   }
-  .promo .inter-active a {
+  .promo .inter-active input {
     display: block;
     margin-left: 0;
     margin: auto;
@@ -320,5 +320,22 @@
   }
   footer p {
     margin-top: unset;
+  }
+  .thank .t-content {
+    padding-top: 10%;
+  }
+  .thank .t-content img {
+    width: 90px;
+    height: 68px;
+  }
+  .thank .t-content h1 {
+
+    font-size: 42px;
+
+  }
+  .thank .t-content p {
+
+    font-size: 20px;
+
   }
 }

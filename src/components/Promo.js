@@ -1,14 +1,35 @@
 import React, { Component } from "react"
 import { Button } from "react-bootstrap"
+import Modal from "react-awesome-modal"
 import { Link } from "gatsby"
 import Lottie from "react-lottie"
 import animationData from "../components/animation"
-import { useHistory } from 'react-router-dom';
+import { useHistory } from "react-router-dom"
 /* Resources*/
 import Road from "../images/road.png"
 import Watch from "../images/watch.svg"
 import RoadMobile from "../images/mobile-road.png"
+import Video from "./video"
 export default class Promo extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      visible: false,
+    }
+  }
+
+  openModal() {
+    this.setState({
+      visible: true,
+    })
+  }
+
+  closeModal() {
+    this.setState({
+      visible: false,
+    })
+  }
+
   onClick() {
     window.location.href = "https://app.qlogistics.io/"
   }
@@ -30,22 +51,27 @@ export default class Promo extends Component {
             </div>
             <div className="col-md-7 col-sm-12">
               <div className="text vertical-center">
-                <h1>Powerful Logistics <br/>  Platform!</h1>
+                <h1>
+                  Powerful Logistics <br /> Platform!
+                </h1>
                 <p>QLogistics is the next generation logistics platform.</p>
                 <div className="inter-active">
                   <div className="bottom">
-                    <Button onClick={this.onClick} className="ctrl-standard fx-sliderIn " my="2 sm-0">
+                    <Button
+                      onClick={this.onClick}
+                      className="ctrl-standard fx-sliderIn "
+                      my="2 sm-0"
+                    >
                       Get Started
                     </Button>
                     <p className="credit">Free for 7 days.</p>
                   </div>
-                  <a
-                    href="https://www.youtube.com/watch?v=9mdQPy26hGM&t=1s"
+                  <input
+                    type="button"
+                    value=" Watch video"
+                    onClick={() => this.openModal()}
                     target="_blank"
-                  >
-                    <img src={Watch} />
-                    Watch video
-                  </a>
+                  />
                 </div>
               </div>
             </div>
@@ -63,23 +89,43 @@ export default class Promo extends Component {
                 </div>
                 <div className="inter-active">
                   <div className="bottom">
-                    <Button onClick={this.onClick} className="ctrl-standard fx-sliderIn block" my="2 sm-0">
+                    <Button
+                      onClick={this.onClick}
+                      className="ctrl-standard fx-sliderIn block"
+                      my="2 sm-0"
+                    >
                       Get Started
-                    </Button>                  
+                    </Button>
                     <p className="credit">Free for 7 days.</p>
                   </div>
-                  <a
-                    href="https://www.youtube.com/watch?v=9mdQPy26hGM&t=1s"
+                  <input
+                    type="button"
+                    value=" Watch video"
+                    onClick={() => this.openModal()}
                     target="_blank"
-                  >
-                    <img src={Watch} />
-                    Watch video
-                  </a>
+                  />
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <Modal
+          visible={this.state.visible}
+          width="700"
+          height="300"
+          effect="fadeInUp"
+          onClickAway={() => this.closeModal()}
+        >
+          <div className="container">
+          <div className="row">
+            <Video
+              videoSrcURL="https://www.youtube.com/embed/9mdQPy26hGM"
+              videoTitle="Qimia Logistics.AI - Powerful Logistic Platform"
+            />
+          </div>
+        </div>
+        </Modal>
       </section>
     )
   }
