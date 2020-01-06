@@ -21,7 +21,7 @@ export default class Product extends Component {
             <div className="header">
               <h2>Product</h2>
               <p>
-                Easy to use dashboard supporting ever step of delivery process.
+                Easy to use dashboard supporting every step of delivery process.
               </p>
             </div>
           </div>
@@ -148,7 +148,7 @@ export default class Product extends Component {
                   <Button className="ctrl-standard fx-sliderIn">
                     Free Trial
                   </Button>
-                  <p>No Credit Card Requiered</p>
+                  <p>No Credit Card Requiered.</p>
                 </div>
               </Col>
             </Row>
@@ -158,7 +158,7 @@ export default class Product extends Component {
           <div className="header">
             <h2>Product</h2>
             <p className="padding-all">
-              Easy to use dashboard supporting ever step of delivery process.
+              Easy to use dashboard supporting every step of delivery process.
             </p>
           </div>
           <div className="row-fluid">

@@ -26,7 +26,7 @@ export default class Features extends Component {
                   <div className="col-md-6">
                     <p className="text">
                       Creating optimal routes is a part of neuro-dynamic
-                      programming. Reinforcement Learing is performing tasks
+                      programming. Reinforcement Learning is performing tasks
                       every second in order to create the best optimization.
                     </p>
                   </div>
@@ -36,7 +36,7 @@ export default class Features extends Component {
                     <p className="title">Reinforcement Learning</p>
                     <p className="text">
                       Creating optimal routes is a part of neuro-dynamic
-                      programming. Reinforcement Learing is performing tasks
+                      programming. Reinforcement Learning is performing tasks
                       every second in order to create the best optimization.
                     </p>
                   </div>
@@ -45,7 +45,7 @@ export default class Features extends Component {
               <Carousel.Item>
                 <div className="row desktop">
                   <div className="col-md-4">
-                    <p className="title">Artifical Intelligence</p>
+                    <p className="title">Artificial Intelligence</p>
                   </div>
                   <div className="col-md-6">
                     <p className="text">
@@ -58,7 +58,7 @@ export default class Features extends Component {
                 </div>
                 <div className="row mobile">
                   <div className="col-md-12">
-                    <p className="title">Artifical Intelligence</p>
+                    <p className="title">Artificial Intelligence</p>
                     <p className="text">
                       Optimizing the routes is more than sorting the addresses.
                       QLogistics uses AI to predict deliveries per day in each
@@ -150,7 +150,7 @@ export default class Features extends Component {
                   </div>
                   <h4 className="product-title">%35 SHORTER ROUTES</h4>
                   <p className="product-description">
-                    Up to 35% shorter routes using AI technologies such as
+                    Up to %35 shorter routes using AI technologies such as
                     predicting traffic data.
                   </p>
                 </a>
@@ -192,7 +192,7 @@ export default class Features extends Component {
                   <img src={Instant} className="product-icon" />
                   <h4 className="product-title">%35 SHORTER ROUTES</h4>
                   <p className="product-description">
-                    Up to 35% shorter routes using AI technologies such as
+                    Up to %35 shorter routes using AI technologies such as
                     predicting traffic data.
                   </p>
                 </div>
