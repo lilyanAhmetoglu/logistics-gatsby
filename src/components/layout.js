@@ -112,7 +112,7 @@ const Layout = ({ children }) => {
             <hr/>
             <div className="col-md-12">
               <p>
-                © {new Date().getFullYear()},Copyright
+                © {new Date().getFullYear()} Copyright
                 {` `}
                 <a href="https://www.qimia.io">Qimia GmbH</a>
               </p>
