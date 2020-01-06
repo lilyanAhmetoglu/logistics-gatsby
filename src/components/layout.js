@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
           <div className="row desktop">
             <div className="col-md-4">
               <p>
-                © {new Date().getFullYear()},Copyright
+                © {new Date().getFullYear()} Copyright
                 {` `}
                 <a href="https://www.qimia.io">Qimia GmbH</a>
               </p>
