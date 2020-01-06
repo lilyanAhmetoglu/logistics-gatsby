@@ -1023,7 +1023,7 @@ p {
 .contact {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: var(--main-theme-color);
+  background-color: var(--contact-us-section);
 }
 .contact .header {
   text-align: center;

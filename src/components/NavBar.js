@@ -39,9 +39,6 @@ export default class NavBar extends Component {
               <AnchorLink className="nav-link " href="#product">
                 Product
               </AnchorLink>
-              <AnchorLink className="nav-link " href="#pricing">
-                Pricing
-              </AnchorLink>
               <AnchorLink className="nav-link " href="#contact">
                 Contact
               </AnchorLink>
