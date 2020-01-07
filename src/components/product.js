@@ -55,7 +55,7 @@ export default class Product extends Component {
                 <Tab.Content>
                   <Tab.Pane eventKey="Operator">
                     <div className="text">
-                      <h2>Operating has never been<br/>easier like this!</h2>
+                      <h2>Operating has never been<br/>easier than this!</h2>
                       <p>
                         Operating deliveries is now easy peasy. Everything is
                         under your control and cristal clear without any
@@ -87,7 +87,7 @@ export default class Product extends Component {
                   <Tab.Pane eventKey="Driver">
                     <div className="text">
                       <h2>
-                        There is no surprize<br />on the route for the drivers.
+                      get rid of last minute problems<br />on the route for the drivers.
                       </h2>
                       <p>
                         All news are good also for the drivers. No more
@@ -116,8 +116,8 @@ export default class Product extends Component {
                   <Tab.Pane eventKey="Customer">
                     <div className="text">
                       <h2>
-                        It’s great to keep informed and <br />satisfied all the
-                        customers.
+                        It’s great to keep our customers   <br />informed and satisfied. 
+                        
                       </h2>
                       <p>
                         The success of a delivery can only be measured
@@ -164,7 +164,7 @@ export default class Product extends Component {
           <div className="row-fluid">
             <div className="text ">
               <h2 className="padding-all">
-                Operating has never been easier like this!
+                Operating has never been easier than this!
               </h2>
               <img src={leftProduct} />
               <p className="padding-all">
@@ -197,7 +197,7 @@ export default class Product extends Component {
           <div className="row-fluid">
             <div className="text">
               <h2 className="text-right padding-all">
-                There is no surprize on the route for the drivers.
+              get rid of last minute problems on the route for the drivers.
               </h2>
               <img src={rightProduct} />
               <p className="text-right padding-all">
@@ -228,7 +228,7 @@ export default class Product extends Component {
           <div>
             <div className="text ">
               <h2 className="padding-all">
-                It’s great to keep informed and satisfied all the customers.
+              It’s great to keep our customers informed and satisfied. 
               </h2>
               <img src={CustomerMobil} />
               <p className="padding-all">

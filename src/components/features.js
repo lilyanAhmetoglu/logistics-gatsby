@@ -124,7 +124,7 @@ export default class Features extends Component {
                   <div className="product-icon-container">
                     <img src={Task} className="product-icon" />
                   </div>
-                  <h4 className="product-title">4X DELIVERY INCREASE</h4>
+                  <h4 className="product-title">4X INCREASE DELIVERY </h4>
                   <p className="product-description">
                     Up to 4 times more deliveries per vehicle with perfectly
                     optimized routes.{" "}
@@ -170,7 +170,7 @@ export default class Features extends Component {
               <div className="col-md-12">
                 <div className="box-container">
                   <img src={Task} className="product-icon" />
-                  <h4 className="product-title">4X DELIVERY INCREASE</h4>
+                  <h4 className="product-title">4X INCREASE DELIVERY </h4>
                   <p className="product-description">
                     Up to 4 times more deliveries per vehicle with perfectly
                     optimized routes.
