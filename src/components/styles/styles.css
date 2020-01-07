@@ -425,7 +425,7 @@ p {
 .promo .svgContainer {
       overflow: hidden;
     /* background-size: cover; */
- 
+      width: 100%;
   
   
 }
