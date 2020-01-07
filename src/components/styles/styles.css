@@ -413,7 +413,7 @@ p {
 .promo {
   overflow: auto;
   background-color: #151a24;
-  height: 100vh;
+  height: calc(100vh - 50px);
   position: relative;
 }
 .block {
@@ -426,13 +426,14 @@ p {
 .promo .svgContainer {
       /* overflow: hidden; */
     /* background-size: cover; */
-     height: calc(100vh);
+
     /* width: 120%; */
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    height: calc(100vh - 50px);
 }
 .promo .text h1 {
   font-size: 40px;
