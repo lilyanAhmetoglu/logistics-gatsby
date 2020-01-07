@@ -87,7 +87,7 @@ export default class Product extends Component {
                   <Tab.Pane eventKey="Driver">
                     <div className="text">
                       <h2>
-                      get rid of last minute problems<br />on the route for the drivers.
+                      Get rid of last minute problems<br />on the route for the drivers.
                       </h2>
                       <p>
                         All news are good also for the drivers. No more
@@ -197,7 +197,7 @@ export default class Product extends Component {
           <div className="row-fluid">
             <div className="text">
               <h2 className="text-right padding-all">
-              get rid of last minute problems on the route for the drivers.
+              Get rid of last minute problems on the route for the drivers.
               </h2>
               <img src={rightProduct} />
               <p className="text-right padding-all">
