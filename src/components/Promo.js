@@ -44,39 +44,12 @@ export default class Promo extends Component {
     }
     return (
       <section className="promo" id="promo">
-        <div className="container">
-          <div className="row desktop">
-            <div className="svgContainer" id="svgContainer">
-              <Lottie options={defaultOptions} isClickToPauseDisabled />
-            </div>
-            <div className="col-md-7 col-sm-12">
-              <div className="text vertical-center">
-                <h1>
-                  Powerful Logistics <br /> Platform!
-                </h1>
-                <p>QLogistics is the next generation logistics platform.</p>
-                <div className="inter-active">
-                  <div className="bottom">
-                    <Button
-                      onClick={this.onClick}
-                      className="ctrl-standard fx-sliderIn "
-                      my="2 sm-0"
-                    >
-                      Get Started
-                    </Button>
-                    <p className="credit">Free for 7 days.</p>
-                  </div>
-                  <input
-                    type="button"
-                    value=" Watch video"
-                    onClick={() => this.openModal()}
-                    target="_blank"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-md-5 col-sm-12"></div>
+        <div className="  desktop">
+          <div className="svgContainer" id="svgContainer">
+            <Lottie options={defaultOptions} isClickToPauseDisabled />
           </div>
+        </div>
+        <div className="container">
           <div className="row mobile">
             <div>
               <div className="text vertical-center">
