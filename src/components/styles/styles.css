@@ -413,7 +413,6 @@ p {
 .promo {
   overflow: auto;
   background-color: #151a24;
-  height: 100vh;
   position: relative;
 }
 .block {
@@ -424,10 +423,9 @@ p {
   margin-top: 25%;
 }
 .promo .svgContainer {
-      /* overflow: hidden; */
+      overflow: hidden;
     /* background-size: cover; */
-
-     width: 100%; 
+ 
   
   
 }
