@@ -1211,11 +1211,11 @@ footer .social ul li a {
 }
 
 
-.promo-Button:hover {
+.getstarted:hover {
   cursor: pointer;
 }
 
-.promo-Button:hover image {
+.getstartedhover:hover image {
   opacity: 0!important;
   cursor: pointer;
 }

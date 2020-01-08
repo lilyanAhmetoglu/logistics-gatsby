@@ -10,7 +10,28 @@ import Road from "../images/road.png"
 import Watch from "../images/watch.svg"
 import RoadMobile from "../images/mobile-road.png"
 import Video from "./video"
-export default class Promo extends Component {
+
+function productClickEvent(elementID, url) {
+  const button = document.getElementById(elementID)
+  button.setAttribute("onclick", url)
+  button.setAttribute("class", elementID)
+
+  const buttonSub = document.getElementById(elementID + "hover")
+  buttonSub.setAttribute("onclick", url)
+  buttonSub.setAttribute("class", elementID + "hover")
+  document.getElementById(elementID).addEventListener("mouseover", function() {
+    document
+      .getElementById(elementID + "hover")
+      .getElementsByTagName("image")[0].style.opacity = 0
+  })
+  document.getElementById(elementID).addEventListener("mouseout", function() {
+    document
+      .getElementById(elementID + "hover")
+      .getElementsByTagName("image")[0].style.opacity = 1
+  })
+}
+ class Promo extends Component {
+
   constructor(props) {
     super(props)
     this.state = {
@@ -33,6 +54,11 @@ export default class Promo extends Component {
   onClick() {
     window.location.href = "https://app.qlogistics.io/"
   }
+  componentDidMount() {
+    productClickEvent("getstarted", "window.location.href='https://app.qlogistics.io/'")
+  }
+
+
   render() {
     const defaultOptions = {
       loop: true,
@@ -97,3 +123,4 @@ export default class Promo extends Component {
     )
   }
 }
+export default Promo
