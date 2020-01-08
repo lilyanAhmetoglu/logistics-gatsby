@@ -426,7 +426,7 @@ p {
       overflow: hidden;
     /* background-size: cover; */
       width: 100%;
-  
+      height: calc(100vh - 40px);
   
 }
 .promo .text h1 {
@@ -1208,4 +1208,14 @@ footer .social ul li a {
   letter-spacing: 1.09px;
 }
 .thank .t-content button {
+}
+
+
+.promo-Button:hover {
+  cursor: pointer;
+}
+
+.promo-Button:hover image {
+  opacity: 0!important;
+  cursor: pointer;
 }
