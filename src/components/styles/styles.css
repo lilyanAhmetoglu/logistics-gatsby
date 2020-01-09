@@ -1216,6 +1216,6 @@ footer .social ul li a {
 }
 
 .getstartedhover:hover image {
-  opacity: 0!important;
+  
   cursor: pointer;
 }

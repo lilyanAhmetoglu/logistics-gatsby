@@ -21,13 +21,12 @@ function productClickEvent(elementID, url) {
   buttonSub.setAttribute("class", elementID + "hover")
   document.getElementById(elementID).addEventListener("mouseover", function() {
     document
-      .getElementById(elementID + "hover")
-      .getElementsByTagName("image")[0].style.opacity = 0
+      .getElementById(elementID).style.opacity = 0
+     
   })
   document.getElementById(elementID).addEventListener("mouseout", function() {
     document
-      .getElementById(elementID + "hover")
-      .getElementsByTagName("image")[0].style.opacity = 1
+      .getElementById(elementID).style.opacity = 1
   })
 }
  class Promo extends Component {
