@@ -11,7 +11,7 @@ export default class Team extends Component {
           <div className="container">
             <div className="row desktop">
               <div className="col-md-6">
-                <div className="left-text">
+                <div className="left-text vertical-center">
                   <p>
                     We are working to turn your investment into value with our
                     expert team!
@@ -19,7 +19,7 @@ export default class Team extends Component {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="right-text">
+                <div className="right-text ">
                   <p className="marginbottom5">
                     Highly skilled team is key for the existence and success of
                     technology companies. Our team combines academic knowledge

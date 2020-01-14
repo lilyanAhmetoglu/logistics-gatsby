@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 
 /*Resources */
-import FooterLogo from "../images/FooterLogo.png"
+import FooterLogo from "../images/FooterLogo.svg"
 import Facebook from "../images/facebook.svg"
 import Twitter from "../images/twitter.svg"
 import LikedIn from "../images/linkedin.svg"
@@ -65,12 +65,12 @@ const Layout = ({ children }) => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/qimiainc" target="_blank">
+                    <a  className="margintop3" href="https://twitter.com/qimiainc" target="_blank">
                       <img src={Twitter} />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/channel/UCtJzg2Ib74_QXKQ0ELRpigg" target="_blank"> 
+                    <a  className="margintop3" href="https://www.youtube.com/channel/UCtJzg2Ib74_QXKQ0ELRpigg" target="_blank"> 
                       <img src={Youtube} />
                     </a>
                   </li>
@@ -97,12 +97,12 @@ const Layout = ({ children }) => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/qimiainc" target="_blank">
+                    <a  className="margintop3" href="https://twitter.com/qimiainc" target="_blank">
                       <img src={Twitter} />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/channel/UCtJzg2Ib74_QXKQ0ELRpigg" target="_blank"> 
+                    <a className="margintop3" href="https://www.youtube.com/channel/UCtJzg2Ib74_QXKQ0ELRpigg" target="_blank"> 
                       <img src={Youtube} />
                     </a>
                   </li>
