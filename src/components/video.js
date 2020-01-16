@@ -1,5 +1,5 @@
 import React from "react"
-import VideoPJ from '../images/QLogistisc_Product_Journey.mp4'
+import VideoPJ from '../images/QLogistisc_Product_Journey_HB_.mp4'
 const Video = ({ videoSrcURL, videoTitle}) => (
   <div className=" embed-responsive embed-responsive-16by9">
     <iframe
