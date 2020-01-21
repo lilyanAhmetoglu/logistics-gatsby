@@ -12,6 +12,8 @@ import DownLine from "../images/down-line.svg"
 import Tick from "../images/tick.svg"
 import Customer from "../images/customer.png"
 import CustomerMobil from "../images/customer-mobile.png"
+import AnchorLink from "react-anchor-link-smooth-scroll"
+
 export default class Product extends Component {
   render() {
     return (
@@ -55,7 +57,11 @@ export default class Product extends Component {
                 <Tab.Content>
                   <Tab.Pane eventKey="Operator">
                     <div className="text">
-                      <h2>Operating has never been<br/>easier than this!</h2>
+                      <h2>
+                        Operating has never been
+                        <br />
+                        easier than this!
+                      </h2>
                       <p>
                         Operating deliveries is now easy peasy. Everything is
                         under your control and cristal clear without any
@@ -87,7 +93,9 @@ export default class Product extends Component {
                   <Tab.Pane eventKey="Driver">
                     <div className="text">
                       <h2>
-                      Get rid of last minute problems<br />on the route for the drivers.
+                        Get rid of last minute problems
+                        <br />
+                        on the route for the drivers.
                       </h2>
                       <p>
                         All news are good also for the drivers. No more
@@ -116,8 +124,8 @@ export default class Product extends Component {
                   <Tab.Pane eventKey="Customer">
                     <div className="text">
                       <h2>
-                        It’s great to keep our customers   <br />informed and satisfied. 
-                        
+                        It’s great to keep our customers <br />
+                        informed and satisfied.
                       </h2>
                       <p>
                         The success of a delivery can only be measured
@@ -145,10 +153,11 @@ export default class Product extends Component {
                   </Tab.Pane>
                 </Tab.Content>
                 <div className="bottom">
-                  <Button className="ctrl-standard fx-sliderIn">
-                    Free Trial
-                  </Button>
-                  <p>No Credit Card Requiered.</p>
+                  <AnchorLink className="nav-link " href="#contact">
+                    <Button className="ctrl-standard fx-sliderIn">
+                      Contact us
+                    </Button>
+                  </AnchorLink>
                 </div>
               </Col>
             </Row>
@@ -197,7 +206,7 @@ export default class Product extends Component {
           <div className="row-fluid">
             <div className="text">
               <h2 className="text-right padding-all">
-              Get rid of last minute problems on the route for the drivers.
+                Get rid of last minute problems on the route for the drivers.
               </h2>
               <img src={rightProduct} />
               <p className="text-right padding-all">
@@ -228,7 +237,7 @@ export default class Product extends Component {
           <div>
             <div className="text ">
               <h2 className="padding-all">
-              It’s great to keep our customers informed and satisfied. 
+                It’s great to keep our customers informed and satisfied.
               </h2>
               <img src={CustomerMobil} />
               <p className="padding-all">

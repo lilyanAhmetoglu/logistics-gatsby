@@ -6,7 +6,7 @@ import Optim from "../images/optim.svg"
 import Task from "../images/tasks.svg"
 import Track from "../images/tracking.svg"
 import Instant from "../images/instant.svg"
-
+import AnchorLink from "react-anchor-link-smooth-scroll"
 export default class Features extends Component {
   onClick() {
     window.location.href = "https://app.qlogistics.io/"
@@ -248,13 +248,11 @@ export default class Features extends Component {
               </div>
             </div>
             <div className="row bottom">
-              <Button
-                onClick={this.onClick}
-                className="ctrl-standard fx-sliderIn"
-              >
-                Free Trial
-              </Button>
-              <p>Try for 7 days.</p>
+              <AnchorLink className="nav-link " href="#contact">
+                <Button className="ctrl-standard fx-sliderIn">
+                  Contact us
+                </Button>
+              </AnchorLink>
             </div>
           </div>
         </div>
