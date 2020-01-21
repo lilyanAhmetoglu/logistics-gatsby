@@ -7,7 +7,6 @@ import Task from "../images/tasks.svg"
 import Track from "../images/tracking.svg"
 import Instant from "../images/instant.svg"
 
-
 export default class Features extends Component {
   onClick() {
     window.location.href = "https://app.qlogistics.io/"
@@ -157,45 +156,53 @@ export default class Features extends Component {
               </div>
             </div>
             <div className="row f-tablet">
-              <div className="col-md-6 col-lg-3">
-                <div className="box-container">
-                  <img src={Optim} className="product-icon" />
+              <div className="col-md-6 col-sm-6 col-lg-3 core-product-cards-container">
+                <a className="core-product-card has-text-centered ">
+                  <div className="product-icon-container">
+                    <img src={Optim} className="product-icon" />
+                  </div>
                   <h4 className="product-title">2X FASTER ROUTE PLANNING</h4>
                   <p className="product-description">
                     Perfectly designed dashboard makes it easy to operate and
                     customize delivery routes.{" "}
                   </p>
-                </div>
+                </a>
               </div>
-              <div className="col-md-6 col-lg-3">
-                <div className="box-container">
-                  <img src={Task} className="product-icon" />
+              <div className="col-md-6 col-sm-6 col-lg-3 core-product-cards-container">
+                <a className="core-product-card has-text-centered ">
+                  <div className="product-icon-container">
+                    <img src={Task} className="product-icon" />
+                  </div>
                   <h4 className="product-title">4X INCREASE DELIVERY </h4>
                   <p className="product-description">
                     Up to 4 times more deliveries per vehicle with perfectly
-                    optimized routes.
+                    optimized routes.{" "}
                   </p>
-                </div>
+                </a>
               </div>
-              <div className="col-md-6 col-lg-3">
-                <div className="box-container">
-                  <img src={Track} className="product-icon" />
+              <div className="col-md-6 col-sm-6 col-lg-3 core-product-cards-container">
+                <a className="core-product-card has-text-centered ">
+                  <div className="product-icon-container">
+                    <img src={Track} className="product-icon" />
+                  </div>
                   <h4 className="product-title">%80 INCREASE PROFIT</h4>
                   <p className="product-description">
                     By Increasing deliveries per each route, fuel and time costs
-                    will be reduced.
+                    will be reduced.{" "}
                   </p>
-                </div>
+                </a>
               </div>
-              <div className="col-md-6 col-lg-3">
-                <div className="box-container">
-                  <img src={Instant} className="product-icon" />
+              <div className="col-md-6 col-sm-6 col-lg-3 core-product-cards-container">
+                <a className="core-product-card has-text-centered ">
+                  <div className="product-icon-container">
+                    <img src={Instant} className="product-icon" />
+                  </div>
                   <h4 className="product-title">%35 SHORTER ROUTES</h4>
                   <p className="product-description">
                     Up to %35 shorter routes using AI technologies such as
                     predicting traffic data.
                   </p>
-                </div>
+                </a>
               </div>
             </div>
             <div className="row mobile">
@@ -241,9 +248,12 @@ export default class Features extends Component {
               </div>
             </div>
             <div className="row bottom">
-              <Button 
-              onClick={this.onClick}
-              className="ctrl-standard fx-sliderIn">Free Trial</Button>
+              <Button
+                onClick={this.onClick}
+                className="ctrl-standard fx-sliderIn"
+              >
+                Free Trial
+              </Button>
               <p>Try for 7 days.</p>
             </div>
           </div>
