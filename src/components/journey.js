@@ -17,7 +17,7 @@ export default class Features extends Component {
           <div className="row">
             <div className="video">
               <Video
-                videoSrcURL="https://www.youtube.com/embed/9mdQPy26hGM"
+                videoSrcURL="https://www.youtube.com/embed/eNZpbeoFrDM"
                 videoTitle="Qimia Logistics.AI - Powerful Logistic Platform"
               />
             </div>

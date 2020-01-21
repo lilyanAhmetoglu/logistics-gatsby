@@ -4,7 +4,7 @@ const Video = ({ videoSrcURL, videoTitle}) => (
   <div className=" embed-responsive embed-responsive-16by9">
     <iframe
       className=""
-      src="https://www.youtube.com/embed/SrW_QU_aTUk"
+      src="https://www.youtube.com/embed/eNZpbeoFrDM"
       title={videoTitle}
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       frameBorder="0"

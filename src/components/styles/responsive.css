@@ -20,7 +20,7 @@
     display: none;
   }
   .f-tablet {
-    display: block;
+    display: flex;
   }
   .promo .svgContainer {
     height: auto;
@@ -37,7 +37,8 @@
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     cursor: pointer;
-    height: 100%;
+    min-height: 400px;
+    height: auto;
     border-bottom: var(--secondary-color--) solid 10px;
     margin-left: 5%;
     margin-right: 5%;
@@ -69,7 +70,7 @@
     display: none;
   }
   .f-tablet {
-    display: block;
+    display: flex;
   }
   .promo .svgContainer {
     height: auto;
@@ -88,8 +89,8 @@
     cursor: pointer;
     height: 100%;
     border-bottom: var(--secondary-color--) solid 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .features .box-container img {
     position: relative;
