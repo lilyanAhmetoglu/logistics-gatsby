@@ -15,6 +15,12 @@ header {
 .desktop {
   display: -webkit-box;
 }
+.f-desktop{
+  display: -webkit-box;
+}
+.f-tablet{
+  display: none;
+}
 .desktop-products {
   display: block;
 }

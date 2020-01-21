@@ -106,7 +106,7 @@ export default class Features extends Component {
                 <p>There are lots of reasons to have QLogistics!</p>
               </div>
             </div>
-            <div className="row desktop">
+            <div className="row f-desktop">
               <div className="col-md-3 col-sm-6 core-product-cards-container">
                 <a className="core-product-card has-text-centered ">
                   <div className="product-icon-container">
@@ -154,6 +154,48 @@ export default class Features extends Component {
                     predicting traffic data.
                   </p>
                 </a>
+              </div>
+            </div>
+            <div className="row f-tablet">
+              <div className="col-md-12 col-lg-6">
+                <div className="box-container">
+                  <img src={Optim} className="product-icon" />
+                  <h4 className="product-title">2X FASTER ROUTE PLANNING</h4>
+                  <p className="product-description">
+                    Perfectly designed dashboard makes it easy to operate and
+                    customize delivery routes.{" "}
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-12 col-lg-6">
+                <div className="box-container">
+                  <img src={Task} className="product-icon" />
+                  <h4 className="product-title">4X INCREASE DELIVERY </h4>
+                  <p className="product-description">
+                    Up to 4 times more deliveries per vehicle with perfectly
+                    optimized routes.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-12 col-lg-6">
+                <div className="box-container">
+                  <img src={Track} className="product-icon" />
+                  <h4 className="product-title">%80 INCREASE PROFIT</h4>
+                  <p className="product-description">
+                    By Increasing deliveries per each route, fuel and time costs
+                    will be reduced.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-12 col-lg-6">
+                <div className="box-container">
+                  <img src={Instant} className="product-icon" />
+                  <h4 className="product-title">%35 SHORTER ROUTES</h4>
+                  <p className="product-description">
+                    Up to %35 shorter routes using AI technologies such as
+                    predicting traffic data.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="row mobile">
