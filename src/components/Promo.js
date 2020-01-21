@@ -57,6 +57,7 @@ function productClickEvent(elementID, url) {
     productClickEvent("getstarted", "window.location.href='https://app.qlogistics.io/'")
   }
 
+  
 
   render() {
     const defaultOptions = {
