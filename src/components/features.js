@@ -157,7 +157,7 @@ export default class Features extends Component {
               </div>
             </div>
             <div className="row f-tablet">
-              <div className="col-md-12 col-lg-6">
+              <div className="col-md-12 col-lg-12">
                 <div className="box-container">
                   <img src={Optim} className="product-icon" />
                   <h4 className="product-title">2X FASTER ROUTE PLANNING</h4>
@@ -167,7 +167,7 @@ export default class Features extends Component {
                   </p>
                 </div>
               </div>
-              <div className="col-md-12 col-lg-6">
+              <div className="col-md-12 col-lg-12">
                 <div className="box-container">
                   <img src={Task} className="product-icon" />
                   <h4 className="product-title">4X INCREASE DELIVERY </h4>
@@ -177,7 +177,7 @@ export default class Features extends Component {
                   </p>
                 </div>
               </div>
-              <div className="col-md-12 col-lg-6">
+              <div className="col-md-12 col-lg-12">
                 <div className="box-container">
                   <img src={Track} className="product-icon" />
                   <h4 className="product-title">%80 INCREASE PROFIT</h4>
@@ -187,7 +187,7 @@ export default class Features extends Component {
                   </p>
                 </div>
               </div>
-              <div className="col-md-12 col-lg-6">
+              <div className="col-md-12 col-lg-12">
                 <div className="box-container">
                   <img src={Instant} className="product-icon" />
                   <h4 className="product-title">%35 SHORTER ROUTES</h4>
