@@ -54,7 +54,8 @@ function productClickEvent(elementID, url) {
     window.location.href = "https://app.qlogistics.io/"
   }
   componentDidMount() {
-    productClickEvent("getstarted", "window.location.href='https://app.qlogistics.io/'")
+    
+    productClickEvent("getstarted", "window.location.href='/#contact'")
   }
 
   
