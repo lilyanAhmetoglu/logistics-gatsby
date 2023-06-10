@@ -10,7 +10,7 @@
     "@progress/kendo-react-form": "^3.9.0",
     "@progress/kendo-react-inputs": "^3.9.0",
     "bootstrap": "^4.4.1",
-    "gatsby": "^2.18.12",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "^2.2.31",
